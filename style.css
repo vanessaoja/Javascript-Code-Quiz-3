@@ -4,7 +4,7 @@ body{
 	width:100vw;
 	height: 100vh;
 }
-.panel{
+.header{
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -13,6 +13,17 @@ body{
 }
 .questionList{
 	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 10vh;
+	background-color: rgb(1, 7, 123);
+	font-size: x-large;
+	text-align: center;
+    border-style:double;
+    color: #ed33bf;
+}
+.h1 {
+    margin: 10px;
 	padding: 5px;
 	width: 80vw;
 	height: 10vh;
