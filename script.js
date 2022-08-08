@@ -61,3 +61,12 @@ var startTime = function () {
         alert("time is up!")
     }
 }
+
+function setQandA() {
+    var currentQuestion = qAObj [currentQuestionIndex];
+    buttonQel.textContent = currentQuestion.question;
+    buttonAEL.textContent = qAObj [currentQuestionIndex] .answers[0];
+    buttonBEL.textContent = qAObj [currentQuestionIndex] .answers[1];
+    buttonCEL.textContent = qAObj [currentQuestionIndex] .answers[2];
+    buttonDEL.textContent = qAObj [currentQuestionIndex] .answers[3];
+}
