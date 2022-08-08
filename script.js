@@ -8,16 +8,16 @@ var buttonCEL = document.getElementById("answerC");
 var buttonDEL = document.getElementById("answerD");
 var answersEl = document.getElementById("answers");
 var startBtn = document.getElementById("startBtn");
-var timerEl = document.getElementById("timer")
+var timerEl = document.getElementById("timer");
 
 var initialsEl = document.getElementById("score");
 var initialsBtnEl = document.getElementById("initBtn");
 var qADiv = document.getElementById("q-a-div");
 
-document.getElementById("startBtn") .addEventListener("click", function () {
+document.getElementById("startBtn").addEventListener("click", function () {
     startQuiz();
 });
-qAobj = [{
+var qAobj = [{
     question: 'What type of language is Javasvript?',
     answers: ["<object-oriented>", "<object-based>", "<procedural>", "<none of the above>"],
     correctAnswer: "<object-oriented>",
