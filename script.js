@@ -40,5 +40,24 @@ qAobj = [{
 {
     question: 'How can a datatype be declared to be a constant type?',
     answers: ["<const>", "<var>", "let>", "<again>"],
-    correctAnswer: "<const>"
-}]
+    correctAnswer: "<const>",
+}];
+
+var currentQuestionIndex = 0
+function startQuiz() {
+    remainingTime = time;
+    valID = setInterval(startTime, 1000);
+    setQandA();
+};
+
+var startTime = function () {
+    if (time > 0) {
+        time -= 1;
+        //consol.log(time);
+        document.getElementById("timer").innerHTML = time;
+    }
+    else {
+        clearInterval(valid);
+        alert("time is up!")
+    }
+}
