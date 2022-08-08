@@ -65,8 +65,26 @@ var startTime = function () {
 function setQandA() {
     var currentQuestion = qAObj [currentQuestionIndex];
     buttonQel.textContent = currentQuestion.question;
-    buttonAEL.textContent = qAObj [currentQuestionIndex] .answers[0];
-    buttonBEL.textContent = qAObj [currentQuestionIndex] .answers[1];
-    buttonCEL.textContent = qAObj [currentQuestionIndex] .answers[2];
-    buttonDEL.textContent = qAObj [currentQuestionIndex] .answers[3];
-}
+    buttonAEL.textContent = qAObj[currentQuestionIndex].answers[0];
+    buttonBEL.textContent = qAObj[currentQuestionIndex].answers[1];
+    buttonCEL.textContent = qAObj[currentQuestionIndex].answers[2];
+    buttonDEL.textContent = qAObj[currentQuestionIndex].answers[3];
+};
+
+function checkAnswer(selectedAnswer) {
+    var correctAnswer = qAObj[currentQuestionIndex].correctAnswer;
+    if (selectedAnswer === correctAnswer) {
+        alert("Correct!");
+        score += 5;
+    }
+    else {
+        alert("Incorrect!");
+        time -= 5;
+    };
+    if (currentQuestionIndex ===qAObj.length - 1 ) {
+        alert("Your score is" + score);
+        endQuiz();
+    } else{currentQuestionIndex++;
+    setQandA();
+    };
+};
