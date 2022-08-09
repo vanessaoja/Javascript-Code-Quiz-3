@@ -3,37 +3,45 @@ body{
 	margin: 0;	
 	width:100vw;
 	height: 100vh;
+    background-color: rgb(218, 185, 232);
 }
-.header{
+.scorelink{
 	height: 10vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+    color: #e908b1;
+}
+.header {
+    height: 5 vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    color: #e908b1;
 }
 .questionList{
 	margin: 10px;
-	padding: 5px;
+	padding: 100px;
 	width: 80vw;
 	height: 10vh;
-	background-color: rgb(1, 7, 123);
+	background-color: rgb(127, 181, 243);
 	font-size: x-large;
 	text-align: center;
     border-style:double;
-    color: #ed33bf;
+    color: #e908b1;
 }
-.h1 {
-    margin: 10px;
-	padding: 5px;
-	width: 80vw;
+
+.answerText {
+    width: 10vw;
+    border-radius: 10%;
 	height: 10vh;
-	background-color: rgb(1, 7, 123);
-	font-size: x-large;
-	text-align: center;
-    border-style:double;
+	margin: 10px;
+	padding: 100px;
+	background-color:rgb(127, 181, 243);
+    border-style: double ;
+    border-color: #ed33bf;
     color: #ed33bf;
-}
-scoreLink {
-    background-color:#ed33bf;
-    display:grid
+    font-size: larger;
 }
