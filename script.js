@@ -19,7 +19,7 @@ document.getElementById("startBtn").addEventListener("click", function () {
 });
 var qAObj = [{
     question: 'What type of language is Javasvript?',
-    answers: ["<object-oriented>", "<object-based>", "<procedural>", "<none of the above>"],
+    answers: ["object-oriented", "<object-based>", "<procedural>", "<none of the above>"],
     correctAnswer: "<object-oriented>",
 },
 {

@@ -1,11 +1,11 @@
-/* body{
+body{
 	padding: 0;
 	margin: 0;	
 	width:100vw;
 	height: 100vh;
 }
 .header{
-	height: 100vh;
+	height: 10vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -32,4 +32,8 @@
 	text-align: center;
     border-style:double;
     color: #ed33bf;
-} */
+}
+scoreLink {
+    background-color:#ed33bf;
+    display:grid
+}
