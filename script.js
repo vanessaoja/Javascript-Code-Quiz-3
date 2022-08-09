@@ -1,4 +1,4 @@
-var time = 75;
+var time = 60;
 var remainingTime = "";
 var score = time;
 var buttonQel = document.getElementById("questions");
