@@ -35,7 +35,7 @@ var qAObj = [{
 {
     question: 'Upon encountering empty statements, what does the Javascript Interpreter do?',
     answers: ["<throws an error>", "<ignores the statements>", "<Gives a warning>", "<none of the above>"],
-    correctAnswer: "<ignores the staements>",
+    correctAnswer: "<ignores the statements>",
 },
 {
     question: 'How can a datatype be declared to be a constant type?',
