@@ -1,13 +1,8 @@
 # <Javascript Code Quiz>
 
-## Javascript Code Quiz is an 
+## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+Javascript Code Quiz is an app that players can use to test their knowledge about Javascript. Trying new and different visuals using CSS was motivation since I enjoy aesthetics. Javascript is a language in which still has room for my imporovement therefore adding motivation as well. It was an acomplishment when testing the code and I saw that all the buttons worked.I built this project because it was in itself a test of my own Javascript knowledge and the ability to build a proper web app. It is a problem that there are five questions relating to Javascript that those in the coding field do not know. This web app tests players and gives them a chance to learn important Javascript imformation. During this project I have learned more about arrays, indexes, and how to apply them in a real world situation.
 
 ## Table of Contents (Optional)
 
