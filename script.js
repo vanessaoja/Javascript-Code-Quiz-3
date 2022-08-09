@@ -17,7 +17,7 @@ var qADiv = document.getElementById("q-a-div");
 document.getElementById("startBtn").addEventListener("click", function () {
     startQuiz();
 });
-var qAobj = [{
+var qAObj = [{
     question: 'What type of language is Javasvript?',
     answers: ["<object-oriented>", "<object-based>", "<procedural>", "<none of the above>"],
     correctAnswer: "<object-oriented>",
@@ -81,10 +81,32 @@ function checkAnswer(selectedAnswer) {
         alert("Incorrect!");
         time -= 5;
     };
-    if (currentQuestionIndex ===qAObj.length - 1 ) {
+    if (currentQuestionIndex === qAObj.length - 1 ) {
         alert("Your score is" + score);
         endQuiz();
     } else{currentQuestionIndex++;
     setQandA();
     };
 };
+function endQuiz() {
+    initialsEl.setAttribute("class", "unhide");
+    qADiv.setAttribute("class", "hide");
+    clearInterval(time)
+};
+function saveScore() {
+    var initials = document.getElementById("initial-input").value;
+    localStorage.setItem(score, initials);
+    startQuiz();
+};
+
+buttonAEL.addEventListener("click", function () {
+    checkAnswer(buttonAEL.textContent);
+});
+buttonBEL.addEventListener("click", function () {
+    checkAnswer(buttonBEL.textContent);
+});buttonCEL.addEventListener("click", function () {
+    checkAnswer(buttonCEL.textContent);
+});buttonDEL.addEventListener("click", function () {
+    checkAnswer(buttonDEL.textContent);
+});
+initialsBtnEl.addEventListener("click", saveScore);
