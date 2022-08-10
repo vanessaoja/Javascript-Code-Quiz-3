@@ -31,16 +31,34 @@ body{
 	text-align: center;
     border-style:double;
     color: #e908b1;
+    border-radius: 30%;
 }
 
 .answerText {
     margin: 10px;
-	padding: 100px;
-	width: 80vw;
+	padding: 0px;
+	width: 40vw;
 	height: 10vh;
 	background-color: rgb(127, 181, 243);
 	font-size: x-large;
 	text-align: center;
     border-style:double;
     color: #e908b1;
+    border-color: #e908b1;
+    border-radius: 30%;
+}
+.startbtn {
+    color:#e908b1;
+    background-color:rgb(127, 181, 243);
+    border-color: #e908b1;
+    border-style: double;
+    border-radius: 30%;
+}
+.initialsBtn {
+    color:#e908b1;
+    background-color:rgb(127, 181, 243);
+    border-color: #e908b1;
+    border-style: double;
+    border-radius: 30%;
+
 }
