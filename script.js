@@ -9,6 +9,7 @@ var buttonDEL = document.getElementById("answerD");
 var answersEl = document.getElementById("answers");
 var startBtn = document.getElementById("startBtn");
 var timerEl = document.getElementById("timer");
+var highscore = document.getElementById("high-scores")
 
 var initialsEl = document.getElementById("score");
 var initialsBtnEl = document.getElementById("initBtn");
@@ -19,28 +20,28 @@ document.getElementById("startBtn").addEventListener("click", function () {
 });
 var qAObj = [{
     question: 'What type of language is Javasvript?',
-    answers: ["object-oriented", "<object-based>", "<procedural>", "<none of the above>"],
-    correctAnswer: "<object-oriented>",
+    answers: ["object-oriented", "object-based", "procedural", "none of the above"],
+    correctAnswer: "object-oriented",
 },
 {
     question: 'Which of the following keywords is used to define a variable in Javascript?',
-    answers: ["<var>", "<let>", "<both A and B>", "<none of the above>"],
-    correctAnswer: "<both A and B>",
+    answers: ["var", "let", "both A and B", "none of the above"],
+    correctAnswer: "both A and B",
 },
 {
     question: 'Which of the following methods is used to access HTML elements using Javascript?',
-    answers: ["<getElementById>", "<getElementByClassName>", "<both A and B>", "<none of the above>"],
-    correctAnswer: "<both A and B>",
+    answers: ["getElementById", "getElementByClassName", "both A and B", "none of the above"],
+    correctAnswer: "both A and B",
 },
 {
     question: 'Upon encountering empty statements, what does the Javascript Interpreter do?',
-    answers: ["<throws an error>", "<ignores the statements>", "<Gives a warning>", "<none of the above>"],
+    answers: ["throws an error", "ignores the statements", "Gives a warning", "none of the above"],
     correctAnswer: "<ignores the statements>",
 },
 {
     question: 'How can a datatype be declared to be a constant type?',
-    answers: ["<const>", "<var>", "let>", "<again>"],
-    correctAnswer: "<const>",
+    answers: ["const", "var", "let", "again"],
+    correctAnswer: "const",
 }];
 
 var currentQuestionIndex = 0

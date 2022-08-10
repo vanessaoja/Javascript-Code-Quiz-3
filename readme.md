@@ -4,22 +4,11 @@
 
 Javascript Code Quiz is an app that players can use to test their knowledge about Javascript. Trying new and different visuals using CSS was motivation since I enjoy aesthetics. Javascript is a language in which still has room for my imporovement therefore adding motivation as well. It was an acomplishment when testing the code and I saw that all the buttons worked.I built this project because it was in itself a test of my own Javascript knowledge and the ability to build a proper web app. It is a problem that there are five questions relating to Javascript that those in the coding field do not know. This web app tests players and gives them a chance to learn important Javascript imformation. During this project I have learned more about arrays, indexes, and how to apply them in a real world situation.
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
 ## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
+This app requires no installation
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+The questions may be difficult but the navigation is easy. After 
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 

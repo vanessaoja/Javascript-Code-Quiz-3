@@ -34,14 +34,13 @@ body{
 }
 
 .answerText {
-    width: 10vw;
-    border-radius: 10%;
-	height: 10vh;
-	margin: 10px;
+    margin: 10px;
 	padding: 100px;
-	background-color:rgb(127, 181, 243);
-    border-style: double ;
-    border-color: #ed33bf;
-    color: #ed33bf;
-    font-size: larger;
+	width: 80vw;
+	height: 10vh;
+	background-color: rgb(127, 181, 243);
+	font-size: x-large;
+	text-align: center;
+    border-style:double;
+    color: #e908b1;
 }
